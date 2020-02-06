@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+header {
+    background: #4267B2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+}
+
+header div span {
+    margin-right: 10px;
+} 
