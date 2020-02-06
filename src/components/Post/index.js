@@ -4,26 +4,24 @@ import Comment from '../Comment';
 
 import './styles.css';
 
-function Post() {
+function Post({ post, comments }) {
     return (
         <div className="container">
             <div className="comment-principal">
                 <div className="info-perfil">
-                    <img src="https://user-images.githubusercontent.com/49238044/73906947-69226980-4883-11ea-9a1d-b705aceb918d.jpg"/>
+                    <img src={post.author.avatar}/>
                     <div>
-                        <strong>Júlio Alcantara</strong>
-                        <small>04 Jun 2019</small>
+                        <strong>{post.author.name}</strong>
+                        <small>{post.date}</small>
                     </div>
                 </div>
                 <div className="text-principal">
-                    <p>Pessoal, alguém sabe se a Rocketseat está contratando?</p>
+                    <p>{post.content}</p>
                 </div>
             </div>
             <div className="divisor"></div>
             <div className="comments">
-                <Comment />
-                <Comment />
-                <Comment />
+                {comments.map(comment => <Comment comment={comment}/>)}
             </div>
         </div>
     )

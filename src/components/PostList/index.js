@@ -84,7 +84,7 @@ class PostList extends Component {
                   name: "Guilherme Brentan",
                   avatar: "https://user-images.githubusercontent.com/49238044/73906947-69226980-4883-11ea-9a1d-b705aceb918d.jpg"
                 },
-                content: "Opa, to aqui te esperando Angelão"
+                content: "Opa, to aqui já"
               },
             ]
           },
@@ -95,7 +95,7 @@ class PostList extends Component {
         return (
             <>
                 <main>
-                    <Post />
+                    {this.state.posts.map(post => <Post post={post} comments={post.comments} />)}
                 </main>
             </>
         )
