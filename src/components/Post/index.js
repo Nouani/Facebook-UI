@@ -21,7 +21,7 @@ function Post({ post, comments }) {
             </div>
             <div className="divisor"></div>
             <div className="comments">
-                {comments.map(comment => <Comment comment={comment}/>)}
+                {comments.map(comment => <Comment key={comment.id} comment={comment}/>)}
             </div>
         </div>
     )

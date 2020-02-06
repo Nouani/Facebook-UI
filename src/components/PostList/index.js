@@ -95,7 +95,7 @@ class PostList extends Component {
         return (
             <>
                 <main>
-                    {this.state.posts.map(post => <Post post={post} comments={post.comments} />)}
+                    {this.state.posts.map(post => <Post key={post.id} post={post} comments={post.comments} />)}
                 </main>
             </>
         )
