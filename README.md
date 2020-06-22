@@ -5,24 +5,24 @@
 ---
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Nouani/GoStack-FourthChallenge.svg">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Nouani/Facebook-UI.svg">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Nouani/GoStack-FourthChallenge.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Nouani/Facebook-UI.svg">
 
-  <a href="https://www.codacy.com/app/Nouani/GoStack-FourthChallenge?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nouani/GoStack-FourthChallenge&amp;utm_campaign=Badge_Grade">
+  <a href="https://www.codacy.com/app/Nouani/Facebook-UI?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nouani/Facebook-UI&amp;utm_campaign=Badge_Grade">
     <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/1b577a07dda843aba09f4bc55d1af8fc.svg">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Nouani/GoStack-FourthChallenge.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Nouani/Facebook-UI.svg">
   <a href="https://github.com/Nouani/GoStack-FourthChallenge/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Nouani/GoStack-FourthChallenge.svg">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Nouani/Facebook-UI.svg">
   </a>
 
-  <a href="https://github.com/Nouani/GoStack-FourthChallenge/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/Nouani/GoStack-FourthChallenge.svg">
+  <a href="https://github.com/Nouani/Facebook-UI/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Nouani/Facebook-UI.svg">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/Nouani/GoStack-FourthChallenge.svg">
+  <img alt="GitHub" src="https://img.shields.io/github/license/Nouani/Facebook-UI.svg">
 </p>
 
 
@@ -56,10 +56,10 @@ We had to create a web interface inspired by the Facebook feed using ReactJS. Po
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Nouani/GoStack-FourthChallenge.git
+$ git clone https://github.com/Nouani/Facebook-UI.git
 
 # Go into the repository
-$ cd GoStack-FourthChallenge
+$ cd Facebook-UI
 
 # Install dependencies
 $ yarn
